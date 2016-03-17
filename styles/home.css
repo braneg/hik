@@ -1,0 +1,58 @@
+.newPostUp label {
+
+    color: #4b4b4c;
+
+    font-family: Montserrat;
+}
+
+.newPostUp label:first-child {
+
+    margin-left: 5px;
+
+}
+
+.newPostUp #nick {
+
+    margin-left: 5px;
+
+}
+
+.postAndnavleft {
+
+    min-width: 1008px;
+
+}
+
+.newPostUp {
+
+    width: 73%;
+
+    margin-left: 70px;
+
+    float: left;
+
+}
+
+#nick {
+
+    width: 150px;
+
+    display: inline;
+
+}
+
+.nickTaker {
+
+    float: right;
+
+    margin-top: 5px;
+
+}
+
+.btn {
+
+    margin-top: 5px;
+
+    font-family: Montserrat;
+
+}

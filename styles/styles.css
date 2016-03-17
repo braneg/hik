@@ -1,7 +1,6 @@
 body {
 
     background-color: white;
-
 }
 
 .navBar nav {
@@ -98,5 +97,71 @@ body {
 .navBar li a.active {
 
     color: black;
+
+}
+
+.navBarLeft {
+
+    min-height: 700px;
+
+    height: 100%;
+
+    width: 200px;
+
+    float: left;
+
+    border: 0;
+    
+    border-top-right-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+
+    box-shadow: inset -20px 1px 20px -20px #00600f;
+
+}
+
+
+
+.navBarLeft li {
+
+    margin: 30px 0 30px 0;
+
+}
+
+
+.navBarLeft ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.navBarLeft a {
+
+    text-decoration: none;
+
+    display: block;
+
+    color: #4b4b4c;
+
+}
+
+.navBarLeft p {
+
+
+    font-family: Montserrat;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.navBarLeft {
+
+    text-align: center;
 
 }

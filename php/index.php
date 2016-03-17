@@ -54,39 +54,39 @@
     <hr id="main_hr">
 
 </div>
-    <div class="postAndnavleft">
-<div class="navBarLeft">
+<div class="postAndnavleft">
+    <div class="navBarLeft">
 
-    <nav>
-        <ul>
+        <nav>
+            <ul>
 
-            <li>
-                <a href=""><p>First</p></a>
-            </li>
-            <li>
-                <a href=""><p>Second</p></a>
-            </li>
-            <li>
-                <a href=""><p>Third</p></a>
-            </li>
-        </ul>
-    </nav>
+                <li>
+                    <a href=""><p>First</p></a>
+                </li>
+                <li>
+                    <a href=""><p>Second</p></a>
+                </li>
+                <li>
+                    <a href=""><p>Third</p></a>
+                </li>
+            </ul>
+        </nav>
 
+
+    </div>
+    <div class="newPostUp">
+        <form action="php/post.php" method="post" id="postForm">
+            <label for ="new_post">New Post</label>
+            <textarea form ="postForm" placeholder="New post" id ="new_post" name="new_post" class="form-control" rows="3"></textarea>
+            <div class="nickTaker">
+                <label for="nick" id="nickLabel">Name</label>
+                <input type="text" name="nick" id="nick" class="form-control" placeholder="Name">
+            </div>
+            <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+    </div>
 
 </div>
-<div class="newPostUp">
-    <form action="php/post.php" method="post" id="postForm">
-        <label for ="new_post">New Post</label>
-        <textarea form ="postForm" placeholder="New post" id ="new_post" name="new_post" class="form-control" rows="3"></textarea>
-        <div class="nickTaker">
-        <label for="nick" id="nickLabel">Name</label>
-        <input type="text" name="nick" id="nick" class="form-control" placeholder="Name">
-        </div>
-        <input class="btn btn-default" type="submit" value="Submit">
-    </form>
-</div>
-
-        </div>
 
 <?php
 
