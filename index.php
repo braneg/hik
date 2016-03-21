@@ -37,7 +37,7 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html" class="active"><p >Home</p></a>
+                <a href="index.php" class="active"><p >Home</p></a>
             </li>
             <li>
                 <a href="html/users.html"><p>Users</p></a>
@@ -88,19 +88,6 @@
 
         </div>
 
-<?php
-
-$filename = "txt/posts.txt";
-
-$file = fopen($filename, "r");
-
-$string = fread($file, (filesize($filename)));
-
-$post_nick = explode("654456", $string);
-
-echo $post_nick[0];
-
-?>
 
 </body>
 </html>
